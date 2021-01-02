@@ -1,11 +1,14 @@
 import React from 'react';
 import MyNavbar from "./components/navbar/navbar.component";
+import MyCarousel from "./components/carousel/carousel.component";
+import TitleMessage from "./components/title-message/title-message.component";
 
 const App = () => {
   return(
     <div>
       <MyNavbar />
-      <h1>Hello</h1>
+      <MyCarousel />
+      <TitleMessage />
     </div>
   );
 }
